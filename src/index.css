@@ -7,12 +7,15 @@
   scrollbar-width: none;
   scroll-behavior: smooth;
 }
-.link-nav-hp{
+
+.link-nav-hp {
   display: none;
 }
-.icon-menu{
+
+.icon-menu {
   display: none !important;
 }
+
 header {
   width: 100%;
   height: max-content;
@@ -947,12 +950,13 @@ a {
 
 @media(max-width:1188px) {
   .link-nav-hp {
-      display: none;
-    }
-  
-    .icon-menu {
-      display: none !important;
-    }
+    display: none;
+  }
+
+  .icon-menu {
+    display: none !important;
+  }
+
   .content-footer {
     padding: 30px;
   }
@@ -998,12 +1002,13 @@ a {
 
 @media(max-width:1024px) {
   .link-nav-hp {
-      display: none;
-    }
-  
-    .icon-menu {
-      display: none !important;
-    }
+    display: none;
+  }
+
+  .icon-menu {
+    display: none !important;
+  }
+
   .header-kamus {
     flex-direction: column;
   }
@@ -1055,252 +1060,317 @@ a {
     padding: 30px;
 
   }
-  .header-cerita-rakyat-detail{
+
+  .header-cerita-rakyat-detail {
     padding: 0px;
   }
-  .left-cerita-rakyat-detail{
+
+  .left-cerita-rakyat-detail {
     padding: 0px;
     width: 100%;
   }
- .header-detail-tradisi{
+
+  .header-detail-tradisi {
     flex-direction: column;
     display: flex;
   }
-  .left-detail-tradisi{
+
+  .left-detail-tradisi {
     width: 100%;
   }
-  .right-detail-tradisi{
+
+  .right-detail-tradisi {
     width: 100%;
   }
-  .right-cerita-rakyat-detail{
+
+  .right-cerita-rakyat-detail {
     width: 100%;
   }
-  .left-detail-artikel{
+
+  .left-detail-artikel {
     width: 100%;
   }
-  .right-detail-artikel{
+
+  .right-detail-artikel {
     width: 100%;
   }
-  .parent-col-berita-lainnya{
+
+  .parent-col-berita-lainnya {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
   }
-  .col-berita-lainnya-detail{
+
+  .col-berita-lainnya-detail {
     width: 400px;
   }
-    .content-detail-artikel{
-      gap: 50px;
-    }
+
+  .content-detail-artikel {
+    gap: 50px;
+  }
 }
+
 @media(max-width:730px) {
-  .left-footer{
+  .left-footer {
     margin-right: 200px;
     width: 100%;
   }
-  .center-footer{
+
+  .center-footer {
     margin-left: 0;
   }
-  .card-berita{
+
+  .card-berita {
     width: 100%;
     height: 400px;
   }
-  .column-berita-artikel{
+
+  .column-berita-artikel {
     justify-content: center;
   }
-  .header-card{
-height: 50%;
+
+  .header-card {
+    height: 50%;
   }
-  .text-jawa{
+
+  .text-jawa {
     font-size: 3rem;
   }
-  .text-tengah-interaktif{
+
+  .text-tengah-interaktif {
     font-size: 1.2rem;
     width: 100%;
   }
-  .col-text-header-artikel{
+
+  .col-text-header-artikel {
     width: 600px !important;
     padding: 0;
   }
-  .text-desc-jawa{
+
+  .text-desc-jawa {
     width: 100%;
     width: 300px;
     font-weight: 200;
     font-size: .8rem;
   }
-  .col-searching-jawa{
+
+  .col-searching-jawa {
     padding: 0 10px;
     margin-top: 10px;
     scale: .9;
     margin-left: -18px;
   }
-  .header-artikel{
+
+  .header-artikel {
     background-position-x: -400px;
     margin-top: 60px;
   }
-  .link-nav{
+
+  .link-nav {
     display: none;
   }
-  nav{
+
+  nav {
     padding: 20px;
     height: 60px;
   }
-  nav img{
+
+  nav img {
     width: 150px;
     margin-top: 5px;
   }
-  .column-berita-terbaru{
+
+  .column-berita-terbaru {
     margin-top: 30px;
   }
-  .col-line{
+
+  .col-line {
     width: 80%;
   }
-  .content-footer img{
+
+  .content-footer img {
     width: 200px;
     margin-top: 40px;
   }
- 
-  .desc-footer{
-      width: 300px !important;
+
+  .desc-footer {
+    width: 300px !important;
   }
-  .center-footer{
+
+  .center-footer {
     width: 100%;
   }
-  .right-footer{
+
+  .right-footer {
     width: 100%;
   }
-  .icon-menu{
-scale: 1.2;
+
+  .icon-menu {
+    scale: 1.2;
   }
-  .col-berita-lainnya-detail{
+
+  .col-berita-lainnya-detail {
     flex-wrap: wrap;
     width: 100%;
   }
-    .content-detail-artikel{
-      padding: 20px;
-    }
-    .col-line-detail{
-      width: 80%;
-    }
-    .col-title-detail-artikel{
-      flex-direction: column;
-    }
-    .title-detail-artikel{
-      width: 100%;
-    }
-    .penerbit-detail-artikel{
-      width: 100%;
-      font-size: .8rem;
-   justify-content: start;
-   margin-top: 10px;
-    }
-    .left-berita-detail{
-      width: 100%;
-    }
-    .left-berita-detail img{
-      width: 100%;
-    }
-    .btn-back-berita-lainnya-detail{
-      height: 30px;
-    }
-        .link-nav-hp {
-          width: 75%;
-          height: 100vh;
-          background-color: #ffffff;
-          position: absolute;
-          left: 0;
-          top: 60px;
-          color: white;
-          display: flex;
-          flex-direction: column;
-          padding: 20px;
-          left: -80%;
-          gap: 20px;
-          transition: .5s;
-        }
-    
-        .link-nav-hp a {
-          text-decoration: none;
-          /* margin-top: 20px; */
-          color: rgb(60, 60, 60);
-          font-weight: 300;
-          font-size: .9rem;
-          font-family: poppins;
-        }
-        #column-cerita-terbaru{
-          margin-top: 120px;
-        }
-        .col-dongeng-lainnya-detail img{
-          width: 95px;
-          border-radius: 5px;
-        }
-        .col-cerita-rakyat-detail{
-          padding: 20px;
-        }
-        .text-jawa img{
-         width: 150px;
-         margin-bottom: 4px;
-        }
-        #header-cerita-rakyat{
-          padding: 40px ;
-          padding-top: 130px;
-        }
-        #text-cerita{
-          width: 100%;
-          font-size: 2rem;
-        }
-        .card-cerita{
-          width: 100%;
-        }
-        .card-kamus{
-          width: 100%;
-        }
-      .left-header-kamus{
-        padding: 0;
-      }
-      .right-header-kamus{
-        padding: 0;
-      }
-      .header-kamus{
-        padding: 30px;
-        gap: 50px;
-        padding-top: 0;
-      }
-      .col-card-kamus{
-        padding: 40px;
-      }
-      .line-kamus{
-        width: 100px;
-      }
-      .left-header-kamus{
-        padding-top: 0px !important;
-      }
-      .title-header-kamus{
-        font-size: 2rem;
-        width: 100%;
-        margin-top: 20px;
-      }
-      .card-tradisi{
-        width: 100%;
-        height: 450px;
-      }
-      .card-tradisi img{
-        width: 100%;
-      }
-      .col-card-tradisi{
-        padding:30px;
-      }
-      .content-card-tradisi{
-        height: 40%;
-      }
-      .content-detail-tradisi{
-        padding: 20px;
-      }
-      .title-detail-tradisi{
-        width: 100%;
-      }
-      .right-detail-tradisi{
-        padding: 0;
-      }
+
+  .content-detail-artikel {
+    padding: 20px;
+  }
+
+  .col-line-detail {
+    width: 80%;
+  }
+
+  .col-title-detail-artikel {
+    flex-direction: column;
+  }
+
+  .title-detail-artikel {
+    width: 100%;
+  }
+
+  .penerbit-detail-artikel {
+    width: 100%;
+    font-size: .8rem;
+    justify-content: start;
+    margin-top: 10px;
+  }
+
+  .left-berita-detail {
+    width: 100%;
+  }
+
+  .left-berita-detail img {
+    width: 100%;
+  }
+
+  .btn-back-berita-lainnya-detail {
+    height: 30px;
+  }
+
+  .link-nav-hp {
+    width: 75%;
+    height: 100vh;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    left: -80%;
+    gap: 20px;
+    transition: .5s;
+  }
+
+  .link-nav-hp a {
+    text-decoration: none;
+    /* margin-top: 20px; */
+    color: rgb(60, 60, 60);
+    font-weight: 300;
+    font-size: .9rem;
+    font-family: poppins;
+  }
+
+  #column-cerita-terbaru {
+    margin-top: 120px;
+  }
+.icon-menu{
+  display: flex !important;
+}
+  .col-dongeng-lainnya-detail img {
+    width: 95px;
+    border-radius: 5px;
+  }
+
+  .col-cerita-rakyat-detail {
+    padding: 20px;
+  }
+
+  .text-jawa img {
+    width: 150px;
+    margin-bottom: 4px;
+  }
+
+  #header-cerita-rakyat {
+    padding: 40px;
+    padding-top: 130px;
+  }
+
+  #text-cerita {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  .card-cerita {
+    width: 100%;
+  }
+
+  .card-kamus {
+    width: 100%;
+  }
+
+  .left-header-kamus {
+    padding: 0;
+  }
+
+  .right-header-kamus {
+    padding: 0;
+  }
+
+  .header-kamus {
+    padding: 30px;
+    gap: 50px;
+    padding-top: 0;
+  }
+
+  .col-card-kamus {
+    padding: 40px;
+  }
+
+  .line-kamus {
+    width: 100px;
+  }
+
+  .left-header-kamus {
+    padding-top: 0px !important;
+  }
+
+  .title-header-kamus {
+    font-size: 2rem;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .card-tradisi {
+    width: 100%;
+    height: 450px;
+  }
+
+  .card-tradisi img {
+    width: 100%;
+  }
+
+  .col-card-tradisi {
+    padding: 30px;
+  }
+
+  .content-card-tradisi {
+    height: 40%;
+  }
+
+  .content-detail-tradisi {
+    padding: 20px;
+  }
+
+  .title-detail-tradisi {
+    width: 100%;
+  }
+
+  .right-detail-tradisi {
+    padding: 0;
+  }
 }
