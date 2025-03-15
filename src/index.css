@@ -7,7 +7,12 @@
   scrollbar-width: none;
   scroll-behavior: smooth;
 }
-
+.link-nav-hp{
+  display: none;
+}
+.icon-menu{
+  display: none !important;
+}
 header {
   width: 100%;
   height: max-content;
@@ -322,7 +327,7 @@ footer {
   align-items: center;
   margin-top: 100px;
   flex-direction: column;
-  background-image: url('assets/bg-footer.png');
+  background-image: url('/assets/bg-footer.png');
   background-size: cover;
 }
 
@@ -520,7 +525,7 @@ footer {
 }
 
 #header-cerita-rakyat {
-  background-image: url(assets/bg-cerita-rakyat.png);
+  background-image: url('/assets/bg-cerita-rakyat.png');
   justify-content: start;
   padding-left: 50px;
   padding-top: 50px;
@@ -941,6 +946,13 @@ a {
 }
 
 @media(max-width:1188px) {
+  .link-nav-hp {
+      display: none;
+    }
+  
+    .icon-menu {
+      display: none !important;
+    }
   .content-footer {
     padding: 30px;
   }
@@ -985,6 +997,13 @@ a {
 }
 
 @media(max-width:1024px) {
+  .link-nav-hp {
+      display: none;
+    }
+  
+    .icon-menu {
+      display: none !important;
+    }
   .header-kamus {
     flex-direction: column;
   }
